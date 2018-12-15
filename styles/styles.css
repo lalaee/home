@@ -1,0 +1,19 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: montserrat,sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
