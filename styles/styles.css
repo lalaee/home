@@ -13,7 +13,82 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
+}
+
+header {
+	background-color: #f5f7fb;
+	height: 100vh;
+	padding: 120px;
+	padding-top: 40px;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+.hero-text-box h1 {
+	font-family: SFUIDisplay-Thin;
+}
+
+.Intro-outter-con {
+    display: block;
+    margin-top: 60px;
+
+}
+
+.Intro-outter-con-1 {
+    margin: 0 auto;
+    max-width: 1320px;
+    display: block;
+    width: 100%;
+}
+
+.Intro-con {
+    padding-right: 40px;
+}
+
+.Intro-text {
+	color: #222137;
+	font-family: SFUIDisplay-Thin;
+	font-size: 70px;
+	max-width: 50%;
+}
+
+.logo {
+	height: 30px;
+	width: auto;
+	float: left;
+}
+
+.main-nav {
+	float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 75%;
+
+}
+
+.main-nav li a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-family: SFUIDisplay-Regular;
+
+}
+
+.header-video {
+	max-width: 100%;
+	padding: 0px;
+}
+
+video{
+     -webkit-filter: brightness(108.5%); 
 }
