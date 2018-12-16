@@ -19,13 +19,15 @@ html {
 	margin: 0 auto;
 }
 
-header {
+header, section {
 	background-color: #f5f7fb;
-	height: 100vh;
 	padding: 120px;
 	padding-top: 40px;
 }
 
+header {
+	padding-bottom: 0px;
+}
 
 h1 {
 	margin: 0;
@@ -46,6 +48,7 @@ h1 {
     max-width: 1320px;
     display: block;
     width: 100%;
+    padding-top: 100px;
 }
 
 .Intro-con {
@@ -55,8 +58,14 @@ h1 {
 .Intro-text {
 	color: #222137;
 	font-family: SFUIDisplay-Thin;
+	font-weight: 2000;
 	font-size: 70px;
-	max-width: 50%;
+	max-width: 75%;
+}
+
+.Intro-text span {
+	font-weight: 1000;
+	color: #5088ea;
 }
 
 .logo {
@@ -73,14 +82,15 @@ h1 {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    font-size: 75%;
+    font-size: 85%;
 
 }
 
-.main-nav li a {
+.main-nav li a, h6 {
     color: #2c2c2c;
     text-decoration: none;
-    font-family: SFUIDisplay-Regular;
+    font-family: SFUIDisplay-Thin;
+    font-weight: 700;
 
 }
 
@@ -92,3 +102,4 @@ h1 {
 video{
      -webkit-filter: brightness(108.5%); 
 }
+
