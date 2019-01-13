@@ -5,12 +5,20 @@
   margin-left: 0;
   padding-left: 0;
 }
-.custom-list li, .solid-square li, .large-disc li, .checkmark-heavy li, .asterisk-heavy li, .ballot-heavy li, .right-arrow-rounded li, .circled-white-star li, .eight-point-star li {
-  padding-left: 20px;
-  font-family: SFUIDisplay-Thin;
-  font-weight: 700;
-  font-size: 70%;
+.custom-list li, .solid-square li, .solid-square2 li .large-disc li, .checkmark-heavy li, .asterisk-heavy li, .ballot-heavy li, .right-arrow-rounded li, .circled-white-star li, .eight-point-star li {
+  padding-left: 40px;
+  color: #222137;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 125%;
+  max-width: 85%;
+  line-height: 100%;
   letter-spacing: 1px;
+  margin-left: 50%
+}
+
+.spli {
+  font-weight: 200 !important;
 }
 .custom-list li:before, .solid-square li:before, .large-disc li:before, .checkmark-heavy li:before, .asterisk-heavy li:before, .ballot-heavy li:before, .right-arrow-rounded li:before, .circled-white-star li:before, .eight-point-star li:before {
   font-family: arial, helvetica, sans-serif;
@@ -26,6 +34,7 @@
 }
 /* large solid square */
 .solid-square li:before {
-  content: '\25A0';
+  contenat: '\25A0';
   top: -3px;
+  padding-right: 19px;
 }
