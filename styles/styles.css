@@ -21,17 +21,37 @@ html {
 	margin: 0 auto;
 }
 
-header, section {
+header, section, footer {
 	max-width: 1250px;
 	padding-top: 40px;
 	overflow: hidden;
+	padding: 70px;
 }
 
 header {
 	padding-bottom: 0px;
 	position: relative;
-	height: 100vh;
+	height: 650px;
 	padding-top: 0px;
+}
+
+footer {
+	padding-bottom: 0px;
+	height: auto;
+	height: 500px;
+	margin-top: 100px;
+	padding-left: 40px;
+}
+
+.gp {
+	padding-top: 50px;
+	font-size: 170%;
+	padding-left: 20px;
+}
+
+.gp-caption {
+	padding-top: 0px;
+	font-weight: 200;
 }
 
 .nav {
@@ -40,6 +60,27 @@ header {
 }
 
 
+.About-me {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.Contact-me-con {
+	max-width: 50%;
+	text-align: right;
+}
+
+.Recent-works {
+	padding-top: 30px;
+	font-weight: !400px;
+
+}
+
+.sp {
+	padding-top: 0px;
+	font-weight: 300
+}
+
 /* Text */
 h1 {
 	margin: 0;
@@ -47,18 +88,18 @@ h1 {
 
 .hero-text-box {
 	position: absolute;
-	width: 1140px;
+	width: 70%;
 	left:0;
-	top: 80px;
+	top: 70px;
+	padding: 0px 70px;
 }
 
-.hero-text-box h1 {
-	color: #222137;
-	font-family: SFUIDisplay-Thin;
-	font-weight: 2000;
-	font-size: 200%;
-	max-width: 85%;
-	line-height: 100%;
+.hero-text-box h1, h2 {
+    color: #222137;
+    font-family: Raleway, sans-serif;
+    line-height: 30px;
+    font-size: 1.5em;
+    font-weight: 200;
 }
 
 .hero-text-box span {
@@ -66,21 +107,48 @@ h1 {
 	color: #5088ea;
 }
 
+h2 {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	line-height: 110%;
+	font-size: 100%;
+	letter-spacing: 1px;
+    line-height: 25px;
+
+}
+
+.About-me-text {
+	max-width: 60%;
+}
 
 /* Video */
 .header-video-con {
 	position: absolute; 
-    width: 100%; height: 100%; 
+    width: 89%; height: 89%; 
     z-index: -1;
+    overflow: hidden;
 }
 
 .header-video {
-	height: 100%;
+	width: 100%;
+	height: auto;
 }
 
 video{
      -webkit-filter: brightness(108.5%); 
 }
+
+/* links */
+.Contact-me {
+	font-family: Raleway;
+	font-weight: 200;
+	text-align: center;
+	line-height: 110%;
+	font-size: 150%;
+}
+
+
 
 
 .logo {
@@ -104,7 +172,7 @@ video{
 .main-nav li a, h6, h3, p {
     color: #2c2c2c;
     text-decoration: none;
-    font-family: SFUIDisplay-Thin;
+    font-family: 'Thasadith', sans-serif;
     font-weight: 700;
 
 }
@@ -113,6 +181,7 @@ h3 {
 	font-size: 120%;
     font-family: SFUIDisplay-Thin;
     font-weight: 700;
+    padding-left: 40px;
 
 }
 
@@ -120,18 +189,20 @@ p {
 	font-size: 100%;
     font-family: SFUIDisplay-Thin;
     font-weight: 200;
+    padding-left: 40px;
 }
 
 
 
 
 .box img {
-    width: 90%;
+    width: 100%;
     height: auto;
+    padding: 40px;
 }
 
 .section-recentworks {
-
+	padding-top: 0px;
 	padding-bottom: 0px;
 }
 
