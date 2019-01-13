@@ -8,9 +8,11 @@
 		<link rel="stylesheet" type="text/css" href="styles/bulletpoint.css">
 		<link rel="stylesheet" type="text/css" href="styles/dynamic.css">
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/bubble-hover.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400|Raleway:100,200,400" rel="stylesheet">
   		<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
   		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
   		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   		<script type="text/javascript" src="scripts/dynamic.js"></script>
   		<script type="text/javascript" src="scripts/scripts.js"></script>
@@ -26,13 +28,17 @@
 			@font-face { 
 				font-family: SFUIDisplay-Medium; src: url('SFUIDisplay-Medium.ttf');
 			}
+			@font-face { 
+				font-family: LOVERG__; src: url('LOVERG__');
+			}
 		</style>
 	</head>
 
 	<body>
+
 		<header>
 			<div class="hero-text-box">
-   				<h1>I am a <span class="txt-rotate" data-period="1800" data-rotate='[ "multifaceted", "versatile", "dynamic", "badass" ]'></span>
+   				<h1>I am a<span class="txt-rotate" data-period="1800" data-rotate='[ "multifaceted", "versatile", "dynamic", "badass" ]'></span>
    				<br> designer
    				</h1>
    			</div>
@@ -53,42 +59,63 @@
    			</div>
 		</header>
 
-		<section class="section-recentworks">
+		<section class="About-me">
 			<div>
+				<div>
+					<div class="About-me-text">
+						<h2> Welcome Amigo! I'm Lala, an interactive and graphic designer. Am passionate about product design and
+							front end development but also create brand identities, explainer videos,
+							packaging, illustrations and everything in-between ;-)
+						</h2>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+		<section class="section-recentworks">
+			<div class="Recent-works">
 				<ul class="solid-square">
-         			<li>RECENT WORKS</li>
+         			<li>Recent Works</li>
+      			</ul>
+			</div>
+			<div class="Recent-works sp">
+				<ul class="solid-square sp">
+         			<li class="spli">All work, all play</li>
       			</ul>
 			</div>
 			<div>
-				<div class="col span-1-of-3 box">
+				<div class="col span-1-of-2 box">
 					<img src="images/furrow-1.jpg">
 					<h3>Furrow</h3>
 					<p>Product Design</p>
 				</div>
-				<div class="col span-1-of-3 box">
-					<img src="images/furrow-2.jpg">
+				<div class="col span-1-of-2 box">
+					<img class="srow2nd" src="images/furrow-3.jpg">
 					<h3>Furrow</h3>
-					<p>Branding</p>
-				</div><div class="col span-1-of-3 box">
-					<img src="images/furrow-3.jpg">
-					<h3>Furrow</h3>
-					<p>Motion</p>
 				</div>
 			</div>
 		</section>
 		
 		<section class="section-recentworks-b">	
 			<div>
-				<div class="col span-1-of-3 box">
-					<img class="srow1st" src="images/furrow-2.jpg">
-					<h3>Furrow</h3>
-					<p>Motion</p>
-				</div>
-				<div class="col span-1-of-3 box">
+				<div class="col span-1-of-2 box">
 					<img class="srow2nd" src="images/furrow-3.jpg">
 					<h3>Furrow</h3>
 				</div>
-				<div class="col span-1-of-3 box">
+				<div class="col span-1-of-2 box">
+					<img class="srow2nd" src="images/furrow-3.jpg">
+					<h3>Furrow</h3>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-recentworks-b">	
+			<div>
+				<div class="col span-1-of-2 box">
+					<img class="srow2nd" src="images/furrow-3.jpg">
+					<h3>Furrow</h3>
+				</div>
+				<div class="col span-1-of-2 box">
 					<img src="images/furrow-1.jpg">
 					<h3>Furrow</h3>
 				</div>
@@ -97,37 +124,26 @@
 
 		<section class="section-recentworks-b">	
 			<div>
-				<div class="col span-1-of-3 box">
-					<img class="srow2nd" src="images/furrow-3.jpg">
-					<h3>Furrow</h3>
-				</div>
-				<div class="col span-1-of-3 box">
-					<img src="images/furrow-1.jpg">
-					<h3>Furrow</h3>
-				</div>
-				<div class="col span-1-of-3 box">
-					<img class="srow1st" class="srow1st" src="images/furrow-2.jpg">
-					<h3>Furrow</h3>
-				</div>
-			</div>
-		</section>
-
-		<section class="section-recentworks-b">	
-			<div>
-				<div class="col span-1-of-3 box">
+				<div class="col span-1-of-2 box">
 					<img src="images/furrow-2.jpg">
 					<h3>Furrow</h3>
 				</div>
-				<div class="col span-1-of-3 box">
+				<div class="col span-1-of-2 box">
 					<img  class="srow2nd" src="images/furrow-3.jpg">
-					<h3>Furrow</h3>
-				</div>
-				<div class="col span-1-of-3 box">
-					<img class="srow1st" src="images/furrow-1.jpg">
 					<h3>Furrow</h3>
 				</div>
 			</div>
 		</section>
+
+		<footer>
+			<div>
+				<div class="gp">
+					<h3>Got a project?</h3>
+					<h3 class="gp-caption">Let's talk</h3>
+				</div>
+			</div>
+			
+		</footer>
 		
 	</body>
 
