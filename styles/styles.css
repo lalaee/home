@@ -39,12 +39,11 @@ footer {
 	padding-bottom: 0px;
 	height: auto;
 	height: 500px;
-	margin-top: 100px;
 	padding-left: 40px;
 }
 
 .gp {
-	padding-top: 50px;
+	padding-top: 75px;
 	font-size: 170%;
 	padding-left: 20px;
 }
@@ -81,6 +80,11 @@ footer {
 	font-weight: 300
 }
 
+.footer-about {
+	padding-top: 145px;
+	font-size: 65%;
+}
+
 /* Text */
 h1 {
 	margin: 0;
@@ -95,7 +99,7 @@ h1 {
 }
 
 .hero-text-box h1, h2 {
-    color: #222137;
+    color: #262626;
     font-family: Raleway, sans-serif;
     line-height: 30px;
     font-size: 1.5em;
@@ -118,8 +122,28 @@ h2 {
 
 }
 
+h2:after {
+	display: block;
+	background-color: #e5e5e5;
+	content: " ";
+	width: 1px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+
+
 .About-me-text {
 	max-width: 60%;
+}
+
+/* Image */
+.rw-img img {
+	transform: sca;
 }
 
 /* Video */
@@ -148,6 +172,24 @@ video{
 	font-size: 150%;
 }
 
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
 
 
 
@@ -170,11 +212,23 @@ video{
 }
 
 .main-nav li a, h6, h3, p {
-    color: #2c2c2c;
     text-decoration: none;
     font-family: 'Thasadith', sans-serif;
     font-weight: 700;
 
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: #3d7cf0;
+}
+
+.here {
+	color: #5188eb;
 }
 
 h3 {
@@ -186,29 +240,65 @@ h3 {
 }
 
 p {
-	font-size: 100%;
+	font-size: 65%;
     font-family: SFUIDisplay-Thin;
     font-weight: 200;
     padding-left: 40px;
+    position: relative;
+    bottom: 20px;
 }
 
+.gop {
+	font-family: LOVERG__;
+}
 
-
-
+/*  recent works images */
 .box img {
     width: 100%;
     height: auto;
     padding: 40px;
+    padding-bottom: 0px;
+    transition: padding 0.5s;
+}
+
+.box img:hover {
+    padding: 20px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+    padding-bottom: 0px;
+    transition: padding 0.5s;
+}
+
+.box1 img:hover {
+    padding: 20px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 550px;
+    padding: 40px;
+    padding-bottom: 0px;
+    transition: padding 0.5s;
+}
+
+.box2 img:hover {
+    padding: 20px;
 }
 
 .section-recentworks {
 	padding-top: 0px;
 	padding-bottom: 0px;
+	margin-top: 200px;
 }
 
 .section-recentworks-b {
 	padding-top: 0px;
 	padding-bottom: 0px;
+	margin-top: 70px;
 }
 
 .srow1st {
@@ -219,7 +309,93 @@ p {
 	padding-top: 70px;
 }
 
+.srow2ndA {
+	padding-top: 70px;
+	margin-top: 30px;
+}
 
 video{
      -webkit-filter: brightness(108.5%); 
+}
+
+
+.footer:before {
+	display: block;
+	background-color: #e5e5e5;
+	content: " ";
+	width: 1040px;
+	height: 1px;
+	margin: 0 auto;
+	margin-left: 65px;
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	bottom:1px;
+
+}
+
+
+.footer:after {
+
+	display: block;
+	background-color: #e5e5e5;
+	content: " ";
+	width: 1040px;
+	height: 1px;
+	margin: 0 auto;
+	margin-left: 65px;
+	margin-top: 150px;
+	display: inline-block;
+	position: relative;
+	bottom:1px;
+
+}
+
+
+.social-media {
+	display: flex;
+}
+
+
+.logo1 {
+	width: 3.5% !important;
+	float: left !important;
+	height: 40px !important;
+	padding: 0px !important;
+	padding-bottom: 0px;
+	padding-top: 20px !important;
+}
+
+.sm {
+	padding-right: 20px;
+}
+
+.sm:hover {
+	padding-right: 20px;
+}
+
+.smicons {
+	align-content: right;
+
+}
+
+.copyright {
+	max-width: 60%;
+}
+.copyrighttxt {
+	text-align: center;
+	bottom: 30px;
+	font-weight: 300px;
+}
+
+.instagram {
+	margin-left: 50px;
+}
+
+.instagram2 {
+	margin-left: 100px;
+}
+
+.instagram3 {
+	margin-left: 150px;
 }
