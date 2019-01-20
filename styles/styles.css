@@ -83,6 +83,12 @@ footer {
 .footer-about {
 	padding-top: 145px;
 	font-size: 65%;
+	float: left;
+}
+
+.footer-about-2 {
+	float: left;
+	padding-left: 140px;
 }
 
 /* Text */
@@ -239,13 +245,27 @@ h3 {
 
 }
 
+h4 {
+	font-size: 120%;
+	font-weight: 500;
+}
+
 p {
 	font-size: 65%;
     font-family: SFUIDisplay-Thin;
-    font-weight: 200;
+    font-weight: 300;
     padding-left: 40px;
     position: relative;
     bottom: 20px;
+}
+
+.type-body {
+	font-size: 95%;
+	font-weight: 700;
+    padding-left: 0px;
+    bottom: 0px;
+    letter-spacing: 1.5px;
+    color: #666666;
 }
 
 .gop {
@@ -385,7 +405,9 @@ video{
 .copyrighttxt {
 	text-align: center;
 	bottom: 30px;
-	font-weight: 300px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #666666;
 }
 
 .instagram {
@@ -399,3 +421,4 @@ video{
 .instagram3 {
 	margin-left: 150px;
 }
+
